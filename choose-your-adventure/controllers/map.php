@@ -93,7 +93,7 @@
         15 => [
             "texte" => "The dragon scoffs and hands you the artefact as if it was some piece of junk. But who cares you did it, you succeded in your inpromptue quest. You then return to the village to claim the rest of your gold from that strange blond man in excahnge for the artefact. You then pay a hotel room to finally take care of that hangover",
             "choices" => [
-                ["Congratulations you actually did it, you got 'all in a days work', play again?" =>]
+                ["Congratulations you actually did it, you got 'all in a days work', play again?" => 1]
             ],
         ],
     ]

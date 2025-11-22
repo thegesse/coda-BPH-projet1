@@ -23,7 +23,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>I'm going on a adventure</title>
 </head>
 <body>
     <h1>Make your own Adventure game</h1>
@@ -40,7 +40,7 @@
     
         </ul>
     <?php } else{?>
-        <?php session_destroy(); ?>
+        <?php session_destroy(); //not sure if I needed to include this ?>
     <?php } ?>
 </body>
 </html>
