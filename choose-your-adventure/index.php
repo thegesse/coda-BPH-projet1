@@ -34,7 +34,7 @@
         <ul class="Choices">
             <?php foreach($choices as $choice) {?>
             <li>
-                <a href="choice=<?php echo $choice['nextId']; ?>"><?php echo htmlspecialchars($choice['text']); ?>"></a>
+                <a href="?choice=<?php echo $choice['nextId']; ?>"><?php echo htmlspecialchars($choice['text']); ?>"></a>
             </li>
             <?php } ?>
     
