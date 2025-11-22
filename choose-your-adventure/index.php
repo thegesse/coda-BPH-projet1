@@ -1,5 +1,5 @@
 <?php
-    session_start(); //found with ai, prompt "how to keep data accross page reloads" is needed to store choices aswell, anything involving session is either found with ai or on stackoverflow
+    session_start(); //found with ai, prompt "how to keep data accross page reloads" is needed to store choices aswell, anything involving session is now found from RTFM
     require 'controllers/map-attributes.php'; 
 
     $currentNode = isset($_SESSION["current_node"]) ? $_SESSION["current_node"] : 1; //either sets the current node at 1 or the node in use, isset used to check if current node exists or not
@@ -34,7 +34,7 @@
         <ul class="Choices">
             <?php foreach($choices as $choice) {?>
             <li>
-                <a href="?choice=<?php echo $choice['nextId']; ?>"><?php echo htmlspecialchars($choice['text']); ?>"></a>
+                <a href="?choice=<?php echo $choice['nextId']; ?>"><?php echo htmlspecialchars($choice['text']); //had an ai fix this, since it would change to another page instead of just changing the node, prompt: 'it wont stay on the index page and just switch to a different node of a map'?>"></a>
             </li>
             <?php } ?>
     
