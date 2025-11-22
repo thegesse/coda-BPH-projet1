@@ -8,7 +8,7 @@
             foreach ($choiceArray as $choiceTexte => $nextNodeId) {
                 $nodeChoices[] = [
                     "text" => $choiceTexte,
-                    "nextId" => $nextNode
+                    "nextId" => $nextNodeId
                 ];
             }
         }
