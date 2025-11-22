@@ -12,5 +12,35 @@
         }
     }
 
-    
+    $nodeData  = getData($currentNode);
+
+    $texte = $nodeData["texte"];
+    $choices = $nodeData["choices"];
 ?>
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Make your own Adventure game</h1>
+    <div id="story">
+        <p><?php echo $texte ?></p>
+    </div>
+    <?php if (count($choices) > 0) { //checks if choices not empty?>
+        <ul class="Choices">
+            <?php foreach($choices as $choice) {?>
+            <li>
+                <a href="choice=<?php echo $choice['nextId']; ?>"><?php echo htmlspecialchars($choice['text']); ?>"></a>
+            </li>
+            <?php } ?>
+    
+        </ul>
+    <?php } else{?>
+        <?php session_destroy(); ?>
+    <?php } ?>
+</body>
+</html>
