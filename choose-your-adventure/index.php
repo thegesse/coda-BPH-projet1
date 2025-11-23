@@ -4,7 +4,7 @@
 
     $currentNode = isset($_SESSION["current_node"]) ? $_SESSION["current_node"] : 1; //either sets the current node at 1 or the node in use, isset used to check if current node exists or not
 
-    if (isset($_GET["choice"]) && is_numeric($_GET["choice"])) { //asked if I could put the get function in one file for readability. Guessed the AND operator from Java
+    if (isset($_GET["choice"]) && is_numeric($_GET["choice"])) { //asked if I could put the get function in one file for readability.
         $chosenNode = (int)$_GET["choice"];
         if (isset($storyMap[$chosenNode])) {
             $currentNode = $chosenNode;
