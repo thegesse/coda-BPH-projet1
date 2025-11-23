@@ -9,14 +9,14 @@
             ],
         ],
         2 => [
-            "texte" => "You decide to go into the forest alone not knowing what awaits or even where this artefact was. After an hour of wandering aimlessly you see something that catches you eye, glowing tracks; tracks you do not recognize but for some reason they intrigue you",
+            "texte" => "You decide to go into the forest alone not knowing what awaits or even where this artefact was. <br> After an hour of wandering aimlessly you see something that catches you eye, glowing tracks; <br> tracks you do not recognize but for some reason they intrigue you",
             "choices" => [
                 ["follow the tracks and find out what beast laid them" => 5],
                 ["avoid them and take a less perilous path" => 6]
             ],
         ],
         3 => [
-            "texte" => "You decide to head to the village, still hungover to ask questions about the artefact, you are met with avoidant gazes and cryptic responses about a certain 'beast'. You look around for an hour before finally someone answers you, the town drunk, he warns you about the same beast but he does give you a map leading to the artefact before pointing you thowards the forest",
+            "texte" => "You decide to head to the village, <br> still hungover, to ask questions about the artefact, you are met with avoidant gazes and cryptic responses about a certain 'beast'. <br> You look around for an hour before finally someone answers you, <br> the town drunk, he warns you about the same beast <br> but he does give you a map leading to the artefact before pointing you thowards the forest",
             "choices" => [
                 ["ask him for a bit more help, and how to avoid or face the beast" => 7],
                 ["take the ramblings of the town drunk with a little bit of salt and proceed into the forest to where the aretfact is marked on the map" => 8]
@@ -30,48 +30,48 @@
             ],
         ],
         5 => [
-            "texte" => "as curiousity got the better of you, you decide to follow the tracks and find out what kind of animal leaves tracks as unique as these. As you approach a cave you spot it; a dragon it looks small it must be young, but still recognizable scales thicker than any manmade shield or armor, wings bigger than a town 2 powerful front legs and thankfully its sleeping. 'a zilant' you muble in awe",
+            "texte" => "as curiousity got the better of you, you decide to follow the tracks and find out what kind of animal leaves tracks as unique as these. <br> As you approach a cave you spot it; <br> a dragon it looks small it must be young, <br> but still recognizable scales thicker than any manmade shield or armor, <br> wings bigger than a town <br> 2 powerful front legs <br> and thankfully its sleeping. 'a zilant' you muble in awe",
             "choices" => [
                 ["wake the beast up" => 11],
                 ["get the hell out of there" => 13]
             ],
         ],
         6 => [
-            "texte" => "You decide to avoid the tracks and find another path. Everything is calm during your walk until suddenly jumping down from the trees bandits, all of them heavily armed, they must have spotted you entering with a large sum of money",
+            "texte" => "You decide to avoid the tracks and find another path. <br> Everything is calm during your walk until suddenly jumping down from the trees bandits, <br> all of them heavily armed, they must have spotted you entering with a moderate sum of money",
             "choices" => [
                 ["run away into the nearest cave and risk awakening its inhabitants" => 11],
                 ["try and fight them" => 14]
             ],
         ],
         7 => [
-            "texte" => "After taking the charm you decide to walk down the path of the map the town drunk gave you, you eventually arrive at a cave with a dragon sleeping ontop of a massive horde, your artefact in the middle",
+            "texte" => "After taking the charm you decide to walk down the path from the map the town drunk gave you, <br> you eventually arrive at a cave with a dragon sleeping ontop of a massive horde, <br> your artefact in the middle",
             "choices" => [
                 ["wake the dragon up" => 11],
                 ["decide the rest of the gold isnt worth it and leave with your life and a small ammount of gold" => 13]
             ],
         ],
         8 => [
-            "texte" => "You walk confidently into the forest with the map you grabbed from the drunk ignoring his warnings, after all beasts arent real they are only fairytail. After walking for hours on end you reach the cave, and see you were wrong mosnters are real and this thing. this massive dragon snoring thankfully. Is very much real",
+            "texte" => "You walk confidently into the forest with the map you grabbed from the drunk ignoring his warnings, <br> after all beasts arent real they are only fairytail. <br> After walking for hours on end you reach the cave, and see you were wrong mosnters are real <br> and this thing. this massive dragon snoring thankfully. Is very much real",
             "choices" => [
                 ["swallow your pride and admit the old drunk was right and run away" => 13],
                 ["don't swallow your pride and face the dragon with your bare two hands, after all its standing between you and your precious artefact, and bounty reward" => 14]
             ],
         ],
         9 => [
-            "texte" => "You wander into the cave, it isnt some normal cave its massive, in fact so big you decide to rest, you lay down and finally nurse that hangover. When waking up this whole thing seemed like a dream so you pack your things and walk away safe a few gold coins richer with a weird dream to retell",
+            "texte" => "You wander into the cave, it isnt some normal cave its massive, <br> in fact so big you decide to rest, you lay down and finally nurse that hangover. <br> When waking up this whole thing seemed like a dream so you pack your things and walk away safe a few gold coins richer with a weird dream to retell",
             "choices" => [
                 ["congratulations you got 'and it was all a dream'. Play again?" => 1]
             ],
         ],
         10 => [
-            "texte" => "after marking the cave for later wether it be to hide treasure or for a future exploration you head for the forest. You walk for hours on end before stumbling infront of a cave, with piles of gold, jewelry, precious stones. The only problem, a massive dragon sleeping atop it",
+            "texte" => "after marking the cave for later wether it be to hide treasure or for a future exploration <br> you head for the forest. You walk for hours on end before stumbling infront of a cave, with piles of gold, jewelry, precious stones. <br> The only problem, a massive dragon sleeping atop it",
             "choices" => [
                 ["wake the beast" => 11],
                 ["maybe waking up wasnt the best option today, I'll go back to bed I guess" => 13]
             ],
         ],
         11 => [
-            "texte" => "Welp, congratulations you have awoken a dragon, it looks angry 'who dares awaken my slumber' its voice booms accross the cave walls as it spreads its wings in an attempt to be intimidating. it then looks down at you and seems amused 'very well human tell me why you are here and I may let you live'",
+            "texte" => "Welp, congratulations you have awoken a dragon, <br> it looks angry 'who dares awaken my slumber' its voice booms accross the cave walls as it spreads its wings in an attempt to be intimidating. <br> it then looks down at you and seems amused 'very well human tell me why you are here and I may let you live'",
             "choices" => [
                 ["tell it the truth that you want the artefact" => 15],
                 ["try and intimidate it into handing you the artefact" => 14],
@@ -79,19 +79,19 @@
             ],
         ],
         13 => [
-            "texte" => "Congratulations you are smart, you have decided the risk isnt worth the reward and turned to leave. No one knows your name anyways and besides no one will be missing this small bag of gold coins right?",
+            "texte" => "Congratulations you are smart, <br> you have decided the risk isnt worth the reward and turned to leave. <br> No one knows your name anyways and besides no one will be missing this small bag of gold coins right?",
             "choices" => [
                 ["Bravo, you got 'survivors instincts'. Play again?" => 1]
             ],
         ],
         14 => [
-            "texte" => "Too bad you died, this isnt some fairytail you know? You cant just brute force your way through everything you know?",
+            "texte" => "Too bad you died, this isnt some fairytail you know? <br> You can't just brute force your way through everything you know?",
             "choices" => [
                 ["Congratulations *read with heavy sarcasm* you got 'the bad ending', play again?" => 1]
             ],
         ],
         15 => [
-            "texte" => "The dragon scoffs and hands you the artefact as if it was some piece of junk. But who cares you did it, you succeded in your inpromptue quest. You then return to the village to claim the rest of your gold from that strange blond man in excahnge for the artefact. You then pay a hotel room to finally take care of that hangover",
+            "texte" => "The dragon scoffs and hands you the artefact as if it was some piece of junk. <br> But who cares you did it, you succeded in your inpromptue quest. <br> You then return to the village to claim the rest of your gold from that strange blond man in excahnge for the artefact. <br> You then pay a hotel room to finally take care of that hangover",
             "choices" => [
                 ["Congratulations you actually did it, you got 'all in a days work', play again?" => 1]
             ],

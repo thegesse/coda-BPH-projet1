@@ -1,5 +1,5 @@
 <?php
-    session_start(); //found with ai, prompt "how to keep data accross page reloads" is needed to store choices aswell, anything involving session is now found from RTFM
+    session_start(); //found with ai, prompt "how to keep data accross page reloads"
     require 'controllers/map-attributes.php'; 
 
     $currentNode = isset($_SESSION["current_node"]) ? $_SESSION["current_node"] : 1; //either sets the current node at 1 or the node in use, isset used to check if current node exists or not
@@ -24,10 +24,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>I'm going on a adventure</title>
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&family=Story+Script&display=swap" rel="stylesheet">
 </head>
 <body>
     <h1>Make your own Adventure game</h1>
-    <div id="story">
+    <div class="story">
         <p><?php echo $texte ?></p>
     </div>
     <?php if (count($choices) > 0) { //checks if choices not empty?>

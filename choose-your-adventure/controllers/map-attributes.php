@@ -21,7 +21,7 @@
     }
 
     function getData($nodeId) { //stole from ai to not repeatedly redefine all the data on every new node change
-        global $mapAttributes; //piratesoftware reference, global used to access stuff defined outside of the function
+        global $mapAttributes; //global used to access stuff defined outside of the function
         return isset($mapAttributes[$nodeId]) ? $mapAttributes[$nodeId] : false;
     }
 ?>
