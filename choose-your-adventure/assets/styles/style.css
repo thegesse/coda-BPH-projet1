@@ -1,10 +1,12 @@
-html{
-    background-image: url("background.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100vh;
-
+body{
+    overflow-x: hidden;
+    width: 100vw;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
 }
 
 h1 {
@@ -20,19 +22,12 @@ a {
 
 .story {
     text-align: center;
-
-    font-family: "Story Script";
     font-size: 30px;
     font-weight: 500;
 }
 
-ul {
-    margin-top: 10vw;
-}
 li{
     align-items: center;
-    font-family: "Story Script";
-    margin-top: 15px;
     font-size: 24px;
     font-weight: 400;
 }
