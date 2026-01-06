@@ -7,12 +7,19 @@ body{
     flex-direction: column;
     align-items: center;
     gap: 50px;
+    background-color: #061E29;
+    color: white;
 }
 
 h1 {
     font-size: 28px;
     font-weight: 600;
     text-align: center;
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgba(0, 0, 0, 0));
+    width: 100vw;
+    top: 0;
+    margin: 0;
+    padding: 20px;
 }
 
 a {
@@ -23,7 +30,9 @@ a {
 .story {
     text-align: center;
     font-size: 20px;
-    font-weight: 500;
+    border: 2px solid rgba(29, 84, 109, 0.3);
+    background-color: rgba(95, 149, 152, 0.3);
+    width: 100vw;
 }
 
 ul {
@@ -34,10 +43,19 @@ ul {
     list-style-type: none;
 }
 
-li{
+li {
     align-items: center;
     font-size: 18px;
     font-weight: 400;
+    border: 2px solid #1D546D;
+    border-radius: 10px;
+    background-color: #5F9598;
+    width: 80vw;
+    color: white;
+    font-weight: 700;
+}
+
+li a {
     padding: 10px 20px;
-    border: 2px solid black;
+    display: block;
 }
