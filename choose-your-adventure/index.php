@@ -23,14 +23,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>I'm going on a adventure</title>
+    <title>NR</title>
     <link rel="stylesheet" href="assets/styles/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&family=Story+Script&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Make your own Adventure game</h1>
+    <h1>Numérique Responsable</h1>
     <div class="story">
         <p><?php echo $texte ?></p>
     </div>
