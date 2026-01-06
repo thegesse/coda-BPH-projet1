@@ -1,100 +1,90 @@
 <?php
     $storyMap = [
         1 => [
-            "texte" => "You wake up at the foot of a tree with a splitting headache. You look around and see a rough looking man, blond hair in braids talking to you <br> 'hey you, you're finally awake' he tosses you a bag of coins and a parchement before pointing to a forest 'fetch' he tells you before leaving. <br> You unroll the parchement and see a picture of a artefact, you look up and see a large forest with a village next to it, <br> what do you do?",
+            "texte" => "Tu recois un appel d'un numéro inconnu, que fait tu?",
             "choices" => [
-                ["enter the forest alone" => 2],
-                ["visit the village for clues" => 3],
-                ["go around the forest to scout ahead for a safe path" => 4]
+                ["J'aime me faire harceler par les démarcheurs téléphoniques, je décroche" => 2],
+                ["C'est peut être l'Ursaff, je ne decroche pas" => 3],
+                
             ],
+            "image" => [ ],
         ],
         2 => [
-            "texte" => "You decide to go into the forest alone not knowing what awaits or even where this artefact was. <br> After an hour of wandering aimlessly you see something that catches you eye, glowing tracks; <br> tracks you do not recognize but for some reason they intrigue you",
+            "texte" => "C'etais ton pote malheureusement \n Il t'appel depuis son fossile de téléphone fixe pour te poser une question",
             "choices" => [
-                ["follow the tracks and find out what beast laid them" => 5],
-                ["avoid them and take a less perilous path" => 6]
+                ["Je lui dit repond bien sur, j'ai une âme charitable" => 4],
+                ["Le téléphone utilise la bande passante et ca pollue donc je raccroche" => 5]
             ],
+            "image" => [ ],
         ],
         3 => [
-            "texte" => "You decide to head to the village, <br> still hungover, to ask questions about the artefact, you are met with avoidant gazes and cryptic responses about a certain 'beast'. <br> You look around for an hour before finally someone answers you, <br> the town drunk, he warns you about the same beast <br> but he does give you a map leading to the artefact before pointing you thowards the forest",
+            "texte" => "Bravo tu as eviter le risque de te faire attrapper par l'urssaf, mais pas pour longtemps All roads lead to Urssaf",
             "choices" => [
-                ["ask him for a bit more help, and how to avoid or face the beast" => 7],
-                ["take the ramblings of the town drunk with a little bit of salt and proceed into the forest to where the aretfact is marked on the map" => 8]
+                ["Je fracase le quatrieme mur pour reccomencer" => 1]
             ],
+            "image" => ["../assets/images/macronUrssaf.png"],
         ],
         4 => [
-            "texte" => "you decide to scout ahead and go around the massive forest, after hours of walking you see a cave",
+            "texte" => "Il te raconte qu'il a casser son téléphone comme un con",
             "choices" => [
-                ["go into the cave to explore and maybe rest a bit" => 9],
-                ["mark the cave for later and finally go into the forest to get the artefact" => 10]
+                ["skill issue, ensuite tu raccroche le téléphone car il faut economiser la bande passante" => 5],
+                ["Tu lui propose de reparer son téléphone" => 6],
+                ["Tu lui propose de racheter un téléphone neuf" => 7]
             ],
+            "image" => [ ],
         ],
         5 => [
-            "texte" => "as curiousity got the better of you, you decide to follow the tracks and find out what kind of animal leaves tracks as unique as these. <br> As you approach a cave you spot it; <br> a dragon it looks small it must be young, <br> but still recognizable scales thicker than any manmade shield or armor, <br> wings bigger than a town <br> 2 powerful front legs <br> and thankfully its sleeping. 'a zilant' you muble in awe",
+            "texte" => "Tu a racrocher au nez de ton pote bravo il est triste maintenant",
             "choices" => [
-                ["wake the beast up" => 11],
-                ["get the hell out of there" => 13]
+                ["Recomencer?" => 1]
             ],
+            "image" => ["../assets/images/crying.png"],
         ],
         6 => [
-            "texte" => "You decide to avoid the tracks and find another path. <br> Everything is calm during your walk until suddenly jumping down from the trees bandits, <br> all of them heavily armed, they must have spotted you entering with a moderate sum of money",
+            "texte" => "Tu lui propose de reparer son téléphone mais il sait pas comment",
             "choices" => [
-                ["run away into the nearest cave and risk awakening its inhabitants" => 11],
-                ["try and fight them" => 14]
+                ["Ayant la flemme tu lui dit de demander a chatgtp comment reparer son telephone" => 8],
+                ["Tu dicte l'addresse d'une entreprise local qui fait reparation de téléphone mais ca coutera plus cher" => 9]
             ],
+            "image" => [ ],
         ],
         7 => [
-            "texte" => "After taking the charm you decide to walk down the path from the map the town drunk gave you, <br> you eventually arrive at a cave with a dragon sleeping ontop of a massive horde, <br> your artefact in the middle",
+            "texte" => "Ton pote, te dit qu'un nouveau téléphone coute cher",
             "choices" => [
-                ["wake the dragon up" => 11],
-                ["decide the rest of the gold isnt worth it and leave with your life and a small ammount of gold" => 13]
+                ["Tu traite ton pote de pauvre et lui dit de racheter un iphone 17 pro max" => 10],
+                ["Tu lui indique le fait que le reconditionner existe et coute moins cher qu'un nouveau telephone" => 11]
             ],
+            "image" => [ ],
         ],
         8 => [
-            "texte" => "You walk confidently into the forest with the map you grabbed from the drunk ignoring his warnings, <br> after all beasts arent real they are only fairytail. <br> After walking for hours on end you reach the cave, and see you were wrong mosnters are real <br> and this thing. this massive dragon snoring thankfully. Is very much real",
+            "texte" => "Il a suivit les instruction de chatgpt mais le téléphone ne se rallume plus",
             "choices" => [
-                ["swallow your pride and admit the old drunk was right and run away" => 13],
-                ["don't swallow your pride and face the dragon with your bare two hands, after all its standing between you and your precious artefact, and bounty reward" => 14]
+                ["reccomencer" => 1]
             ],
+            "image" => ["../assets/images/angry.png"],
         ],
         9 => [
-            "texte" => "You wander into the cave, it isnt some normal cave its massive, <br> in fact so big you decide to rest, you lay down and finally nurse that hangover. <br> When waking up this whole thing seemed like a dream so you pack your things and walk away safe a few gold coins richer with a weird dream to retell",
+            "texte" => "Le telephone est reparer mais son portefeuille est vide",
             "choices" => [
-                ["congratulations you got 'and it was all a dream'. Play again?" => 1]
+                ["recommencer" => 1]
             ],
+            "image" => ["../assets/images/wojak.png"],
         ],
         10 => [
-            "texte" => "after marking the cave for later wether it be to hide treasure or for a future exploration <br> you head for the forest. You walk for hours on end before stumbling infront of a cave, with piles of gold, jewelry, precious stones. <br> The only problem, a massive dragon sleeping atop it",
+            "texte" => "Il a racheter l'iphone a 1479€",
             "choices" => [
-                ["wake the beast" => 11],
-                ["maybe waking up wasnt the best option today, I'll go back to bed I guess" => 13]
+                ["Bravo tu a polluer et ton pote est pauvre, recomencer?" => 1]
             ],
+            "image" => ["../assets/images/crying.png"],
         ],
         11 => [
-            "texte" => "Welp, congratulations you have awoken a dragon, <br> it looks angry 'who dares awaken my slumber' its voice booms accross the cave walls as it spreads its wings in an attempt to be intimidating. <br> it then looks down at you and seems amused 'very well human tell me why you are here and I may let you live'",
+            "texte" => "Il a trouver 2 telephone reconditioner et te demande lequel choisir",
             "choices" => [
-                ["tell it the truth that you want the artefact" => 15],
-                ["try and intimidate it into handing you the artefact" => 14],
-                ["apologize and turn away to leave" => 13]
+                ["Choisit L'iphone avec un mauvais indice de reparation" => 13],
+                ["Choisit un Xiaomi mais avec un bon indice de reparation" => 14]
             ],
+            "image" => ["../assets/images/front_teeth.png"],
         ],
-        13 => [
-            "texte" => "Congratulations you are smart, <br> you have decided the risk isnt worth the reward and turned to leave. <br> No one knows your name anyways and besides no one will be missing this small bag of gold coins right?",
-            "choices" => [
-                ["Bravo, you got 'survivors instincts'. Play again?" => 1]
-            ],
-        ],
-        14 => [
-            "texte" => "Too bad you died, this isnt some fairytail you know? <br> You can't just brute force your way through everything you know?",
-            "choices" => [
-                ["Congratulations *read with heavy sarcasm* you got 'the bad ending', play again?" => 1]
-            ],
-        ],
-        15 => [
-            "texte" => "The dragon scoffs and hands you the artefact as if it was some piece of junk. <br> But who cares you did it, you succeded in your inpromptue quest. <br> You then return to the village to claim the rest of your gold from that strange blond man in excahnge for the artefact. <br> You then pay a hotel room to finally take care of that hangover",
-            "choices" => [
-                ["Congratulations you actually did it, you got 'all in a days work', play again?" => 1]
-            ],
-        ],
+
     ]
 ?>

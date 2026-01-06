@@ -38,7 +38,7 @@
         <ul class="Choices">
             <?php foreach($choices as $choice) {?>
             <li>
-                <a href="?choice=<?php echo $choice['nextId']; ?>"><?php echo htmlspecialchars($choice['text']); //had an ai fix this, since it would change to another page instead of just changing the node, prompt: 'it wont stay on the index page and just switch to a different node of a map'?>"></a>
+                <a href="?choice=<?php echo $choice['nextId']; ?>"><?php echo htmlspecialchars($choice['text']);?>"></a>
             </li>
             <?php } ?>
     
